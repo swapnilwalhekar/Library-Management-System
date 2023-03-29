@@ -1,0 +1,16 @@
+.forms {
+  display: flex;
+  width: 450px;
+  height: 500px;
+  margin: 15% 13%;
+  box-shadow: 50px 50px 80px 50px rgba(19, 15, 16, 0.2);
+  padding: 90px 55px 5px 75px;
+  border-radius: 40px;
+  background: rgb(247, 244, 244);
+  background-attachment: fixed;
+}
+body {
+  background-image: url('../../public/lms.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

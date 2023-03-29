@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.section1 {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  flex-wrap: wrap;
+  padding: 100px 0 100px 50px;
+  background: rgb(237, 240, 239);
+}
+/* .section2 {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 100px 0;
+  background: rgb(237, 240, 239);
+} */
+.cards {
+  width: 300px;
+  padding: 20px;
+}
+.cards:hover {
+  box-shadow: 0px 10px 10px 10px rgb(105, 105, 57);
+}
+.img_box img {
+  width: 50px;
+  height: 200px;
+}
+.details p:nth-child(1) {
+  font-weight: bold;
+}
+.details button {
+  padding: 10px;
+  background: rgb(106, 194, 39);
+  font-weight: bold;
+}
